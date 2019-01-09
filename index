@@ -1,8 +1,28 @@
 <!DOCTYPE html>
 <html>
   <header>
+    <meta charset="utf-8">
     <title>Antoine couvreur coach powerlifting</title>
   </header>
   <body>
+    <div class="menu">
+    </div>
+    <div class="carrousel-img">
+    </div>
+    <div class="presentation">
+      <h2>Qui suis-je?</h2>
+      <div class="presentation-texte">
+        <p>Texte de présentation</p>
+      </div>
+      <div class="presentation-photo">
+        <div class="left">
+        <img src="" alt=">
+      </div>
+    </div>
+    <div class="entrainement">
+    </div>
+    <div class="powerlifting">
+    </div>
+    <div class="contact">
   </body>
 </html>
