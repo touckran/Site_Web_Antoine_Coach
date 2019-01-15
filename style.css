@@ -15,35 +15,31 @@ body{
     margin: 30px 150px;
 }
 
-.menu,.presentation-texte,.presentation-entrainement, .section{
+.menu,.presentation-texte,.presentation-entrainement, .mouvement{
     background-color: rgba(76, 174, 178, 0.4);
 }
 
 .menu{
     border-bottom: 4px solid #2F4F4F;
+    display: flex;
+    justify-content: space-between;
 }
 
 h1{
-    margin: 0px;
-    margin-top: 8px;
-    margin-left: 8px;
-    float: left;
-    width: 25%;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+
 }
 
-.menu ul,li{
-    display: inline-block;
-    list-style-type: none;
-}
 .menu ul{
-    width: 70%;
     margin: 0;
-    text-align: right;
+    display: flex;
 }
 .menu li{
     padding: 20px 30px;
     text-transform: uppercase;
-    font-weight: bold
+    list-style-type: none;
 }
 
 .menu li:hover{
@@ -57,7 +53,6 @@ h1{
     height: 800px;
 }
 
-
 h2{
     margin: 10px 0;
     padding: 20px 0;
@@ -67,25 +62,25 @@ h2{
     border-radius: 5px;
 }
 
-.presentation-texte{
-    display: inline-block;
-    margin-left: 2%;
-    margin-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    max-width: 45%;
+.container-presentation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.presentation-photo{
-    float: right;
-}
 
 .presentation-photo img{
-    width:500px;
+    width: 500px;
+    height:350px;
 }
 
-.clear{
-    clear: both;
+.presentation-texte{
+    padding-left: 15px;
+    margin-right: 2%;
+}
+
+.presentation-texte li{
+    list-style-type: square;
 }
 
 .centre_site{
@@ -94,9 +89,36 @@ h2{
 
 .centre_site img{
     box-shadow:0px 0px 10px black;
+
 }
 
 #breve{
     text-align: center;
     font-style: italic;
+}
+
+h3{
+    padding:10px 10px;
+    text-align: center;
+}
+
+.mouvement{
+    padding-bottom: 50px;
+}
+
+.container-mouvement{
+    display: flex;
+    align-items: center;
+}
+
+.image-mouvement{
+    width: 500px;
+    margin-left: 6%;
+}
+.marge-mouvement{
+    width: 60px;
+}
+.texte-mouvement{
+    width: 400px;
+    text-align: justify;
 }
