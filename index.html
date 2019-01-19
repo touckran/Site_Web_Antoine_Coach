@@ -7,8 +7,23 @@
     </header>
   <body>
     <!--Menu-->
+    <div class="container-recherche">
+        <form class="recherche">
+            <label for="site-recherche">Rechercher sur le site:</label>
+            <input type="search" id="site-recherche" name="recherche">
+            <button>Recherche</button>
+        </form>
+    </div>
+    <div class="clear">
+    </div>
+    <div class="top-menu">
+        <h1>Coach powerlifting</h1> 
+        <ul class="socialnetworks">
+            <li><a href="http://www.facebook.com"><img src="img/facebook_logo.png" alt="Logo de facebook" width="40px"></a></li>
+            <li><a href="http://www.twitter.com"><img src="img/twitter_logo.png" alt="Logo de twitter" width="40px"></a></li>
+        </ul>
+    </div>
     <div class="menu">
-        <h1>Coach powerlifting</h1>
         <ul>
             <li class="menu-accueil">Accueil</li>
             <li class="menu-presentation">Qui suis-je?</li>
@@ -61,7 +76,6 @@
                     <div class="image-mouvement">
                         <img src="img/developpe_couche.jpg" alt="image developpé couché">
                     </div>
-                    <div class="marge-mouvement"></div>
                     <div class="texte-mouvement">
                         <p>Allongé sur un banc horizontal, les fessiers en contact avec le banc, l’athlète prend la barre avec ses mains et la dé-rack, 
                         et au signal « Start ! » de l’arbitre central, il descend la barre en la contrôlant jusqu’à la partie basse des pectoraux ou haut des abdominaux, 
@@ -79,7 +93,6 @@
                     <div class="image-mouvement">
                         <img src="img/squat.png" alt="image de squat">
                     </div>
-                    <div class="marge-mouvement"></div>
                     <div class="texte-mouvement">
                         <p>L’athlète pose et maintient la barre sur les épaules, puis il dé-rack la barre. A l’ordre « Squat ! » de l’arbitre central, 
                         il fait une flexion des genoux pour descendre, jusqu’à passer sous la parallèle au sol de profil (le pli de la hanche doit être sous le genou si l’on trace une droite), 
@@ -95,7 +108,6 @@
                     <div class="image-mouvement">
                         <img src="img/deadlift.png" alt="image de Soulevé de Terre">
                     </div>
-                    <div class="marge-mouvement"></div>
                     <div class="texte-mouvement">
                         <p>L’athlète doit soulever une barre qui est posée au sol, sans l’appuyer sur les cuisses, ni la faire redescendre durant son trajet. 
                         Puis, l’athlète doit se stabiliser, épaules en arrière, genoux verrouillés. Enfin il attendra l’ordre « Down ! » de la part de l’arbitre pour reposer la barre au sol. </p>
@@ -108,32 +120,25 @@
     <!--Contact-->
     <div class="contact">
         <h2>Contact</h2>
-        <div class="section">
-        <div class="reseau">
-            <h3>Mes réseaux</h3>
-            <ul>
-                <li><a href="http://www.facebook.com"><img src="img/facebook_logo.png" alt="Logo de facebook"></a></li>
-                <li><a href="http://www.twitter.com"><img src="img/twitter_logo.png" alt="Logo de twitter"></a></li>
-            </ul>
+        <div class="container-contact"> 
+            <div class="mail">
+                <form enctype="text/plain" action="mailto:antoinecouvreur1@gmail.com" id="contact">
+                    <fieldset>
+                        <legend>Envoyer moi un mail</legend>
+                        <label for="nom">Nom:</label>
+                        <input type="text" name="nom" placeholder="Entrez votre nom">
+                        <label for="prenom">Prénom:</label>
+                        <input type="text" name="prenom" placeholder="Entrez votre prénom">
+                        <label for="mail">Mail:</label>
+                        <input type="text" name="mail" placeholder="adresse@mail.fr">
+                        <label for="message">Message:</label>
+                        <textarea name="message" cols="30" rows="10" placeholder="Votre message" maxlength="500"></textarea>
+                    </fieldset>
+                    <p><input type="submit" name="envoyer" value="Envoyer"></p>
+                </form>
+            </div>
         </div>
-        <div class="mail">
-            <h3>Par mail</h3>
-            <form enctype="text/plain" action="mailto:antoinecouvreur1@gmail.com">
-                <fieldset>
-                    <legend>Envoyer moi un mail</legend>
-                    <label for="pom">Nom:</label>
-                    <input type="text" name="nom" placeholder="Entrez votre nom">
-                    <label for="prenom">Prénom:</label>
-                    <input type="text" name="prenom" placeholder="Entrez votre prénom">
-                    <label for="mail">Mail:</label>
-                    <input type="text" name="mail" placeholder="adresse@mail.fr">
-                    <label for="message">Message:</label>
-                    <textarea name="message" cols="30" rows="10" placeholder="Votre message" maxlength="500"></textarea>
-                    <input type="submit" name="envoyer" value="Envoyer">
-                </fieldset>
-            </form>
-        </div>
-        </div>
+        <p>Copyright 2019 Julien Villain - Toutes reproduction interdit</p>
     </div>
 </body>
 </html>
