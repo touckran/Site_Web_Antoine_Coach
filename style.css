@@ -36,10 +36,15 @@ body{
 /*Mise en forme Menu deroulant*/
 #menu-accordeon {
   padding:0;
-  margin:0;
+  margin-right:5px;
   list-style:none;
   text-align: center;
-  width: 180px;
+  width: 200px;
+}
+
+#menu-accordeon img{
+    float: right;
+    padding-right: 10px;
 }
 #menu-accordeon ol {
   padding:0;
@@ -53,8 +58,7 @@ body{
    background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
    border-radius: 6px;
    margin-bottom:2px;
-   box-shadow: 3px 3px 3px #999;
-   border:solid 1px #333A40
+   border:solid 1px #333A40;
 }
 #menu-accordeon li li {
    max-height:0;
@@ -72,7 +76,6 @@ body{
   color: #fff;
   padding: 8px 0;
   font-family: verdana;
-  font-size:1.2em
 }
 #menu-accordeon ul li a, #menu-accordeon li:hover li a {
   font-size:1em
@@ -87,8 +90,8 @@ body{
    border-radius: 0 0 6px 6px;
    border:none;
 }
-#menu-accordeon li:hover li {
-  max-height: 15em;
+#menu-accordeon li:hover li{
+    max-height: 15em;
 }
 
 .sous-menu{
@@ -106,7 +109,6 @@ body{
 
 .top-menu h1{
     margin: 10px 0 10px 5%;
-    height: auto;
 }
 
 .top-menu ul{
